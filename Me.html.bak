@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 
 <title>Kylinarik</title>
-<link rel="icon" href="/Praktika/Laba/img/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="/Praktika/Laba/img/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="/Praktika/Laba/fonts/lato_italic.css">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="fonts/lato_italic.css">
 	   
 <style>
 
@@ -169,11 +169,11 @@ Z{font-family: "Lato Italic";}
 
 
 <div class="rectangle"><ul class="main-menu">
-    <li><a href="/Praktika/Laba/Kulinarik.html">Рецепты</a></li>
+    <li><a href="Kulinarik.html">Рецепты</a></li>
     <li class="menu-children">
         <a href="#url">Питание</a>
         <ul>
-            <li><a href="/Praktika/Laba/FoodP.htmll">Правильное</a></li>
+            <li><a href="FoodP.htmll">Правильное</a></li>
             <li><a href="#url">Неправильное</a></li>
             <li class="menu-children">
                 <a href="#url">Напитки</a>
@@ -184,9 +184,9 @@ Z{font-family: "Lato Italic";}
             </li>           
         </ul>
     </li>
-    <li><a href="/Praktika/Laba/News.html">Новости</a></li>
+    <li><a href="News.html">Новости</a></li>
     <li><a href="#url">Фотогалерея</a></li>
-    <li class="active"><a href="/Praktika/Laba/Me.html">Обо мне</a></li>       
+    <li class="active"><a href="Me.html">Обо мне</a></li>       
 </ul></div>
 
 
@@ -196,7 +196,7 @@ Z{font-family: "Lato Italic";}
 Немного обо мне - Я студент из группы КИС-201 Казанчян Артём, это задание мне нужно для практики, но в будущем, Я буду его развивать и использовать, как свою электронно-рецептную книгу.</br> 
 Надеюсь, труды моей работы Вам понравятся.
 <Z/></font></div>
-<div style="position:absolute;left:45%; top:60% "><img src="/Praktika/Laba/img/Log.PNG" width="250" height="200"></div>
+<div style="position:absolute;left:45%; top:60% "><img src="img/Log.PNG" width="250" height="200"></div>
 
 </body>
 </html>
