@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Arkhip';
-	src: url('/Praktika/Laba/fonts/arkhip.eot'); /* IE 9 Compatibility Mode */
-	src: url('/Praktika/Laba/fonts/arkhip.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('/Praktika/Laba/fonts/arkhip.woff2') format('woff2'), /* Super Modern Browsers */
-		url('/Praktika/Laba/fonts/arkhip.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('/Praktika/Laba/fonts/arkhip.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('/Praktika/Laba/fonts/arkhip.svg#arkhip') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('fonts/arkhip.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/arkhip.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/arkhip.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/arkhip.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/arkhip.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/arkhip.svg#arkhip') format('svg'); /* Chrome < 4, Legacy iOS */
 }
