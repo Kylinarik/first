@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 
 <title>Kylinarik</title>
-<link rel="icon" href="/Praktika/Laba/img/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="/Praktika/Laba/img/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="/Praktika/Laba/fonts/lato_italic.css">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="fonts/lato_italic.css">
 	   
 <style>
 
@@ -169,11 +169,11 @@ set{text-align: center;
 
 
 <div class="rectangle"><ul class="main-menu">
-    <li><a href="/Praktika/Laba/Kulinarik.html">Рецепты</a></li>
+    <li><a href="Kulinarik.html">Рецепты</a></li>
     <li class="menu-children">
         <a href="#url">Питание</a>
         <ul>
-            <li><a href="/Praktika/Laba/FoodP.html">Правильное</a></li>
+            <li><a href="FoodP.html">Правильное</a></li>
             <li><a href="#url">Неправильное</a></li>
             <li class="menu-children">
                 <a href="#url">Напитки</a>
@@ -184,15 +184,15 @@ set{text-align: center;
             </li>           
         </ul>
     </li>
-    <li class="active"><a href="/Praktika/Laba/News.html">Новости</a></li>
+    <li class="active"><a href="News.html">Новости</a></li>
     <li><a href="#url">Фотогалерея</a></li>
-    <li><a href="/Praktika/Laba/Me.html">Обо мне</a></li>       
+    <li><a href="Me.html">Обо мне</a></li>       
 </ul></div>
 
 
 
 
-<set><div><img src="/Praktika/Laba/mosi/notwork.png" width="650" height="600"></div></set>
+<set><div><img src="mosi/notwork.png" width="650" height="600"></div></set>
 
 </body>
 </html>

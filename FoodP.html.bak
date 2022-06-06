@@ -191,7 +191,7 @@ img {
 
 
 <div class="rectangle"><ul class="main-menu">
-    <li><a href="index.html">Рецепты</a></li>
+    <li><a href="Kulinarik.html">Рецепты</a></li>
     <li class="menu-children">
         <a href="#url">Питание</a>
         <ul>
