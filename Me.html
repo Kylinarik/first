@@ -4,189 +4,37 @@
 <meta charset="UTF-8">
 
 <title>Kylinarik</title>
-<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="fonts/lato_italic.css">
+<link rel="stylesheet" href="main_menu.css">
+<link rel="icon" href="/Praktika/Laba/img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/Praktika/Laba/img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/Praktika/Laba/fonts/lato_italic.css">
+<link rel="stylesheet" href="main_menu.css">
 	   
-<style>
 
-p{ position:absolute;
-   left:600px; 
-   top:180px;
-   /*text-align: right;/**/
-  }
-  
-  
-  p1{ position:absolute;
-     left:600px; 
-     top:25px;
-    }
-
-
-Z{font-family: "Lato Italic";}
-
-  
-
-  
-      .rectangle{
-    height: 50px;
-    width: 600px;    
-    background: #FFFFFF;
-    border-radius:  7px  ;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-    }
-
-
-   
-.main-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-   
-    margin-top: 30px;
-    font-family: 'Montserrat', sans-serif;   
-    /* Для выравнивания меню по центру */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
-}
-.main-menu > li {
-    display: inline-flex;
-}
-.main-menu > li + li {
-    margin-left: 20px;
-}
-.main-menu > li > a {
-    padding: 0 0 20px 0;
-    position: relative;
-    text-transform: uppercase;   
-    color: #000;
-    font-weight: bold;
-    letter-spacing: 0.2px;
-    font-size: 15px;
-    text-decoration: none;   
-}
-.main-menu > li > a:hover {
-    text-decoration: none;   
-    color: #000080;
-}
-.main-menu > li > a:after {
-    width: 0;
-    height: 3px;
-    background-color: #0000FF;
-    content: '';
-    left: 0;
-    bottom: 10px;
-    position: absolute;
-    transition: all .3s;
-}
-.main-menu > li > a:hover::after {
-    width: 100%;
-}
-.main-menu > li.active a:after {
-    width: 100%;
-}
-.main-menu li {
-    margin: 0;
-    white-space: nowrap;
-}
-.main-menu li.menu-children {
-    position: relative;
-    margin-right: 12px;
-}
-.main-menu li.menu-children:after {
-    position: absolute;
-    content: "\2039";
-    color: #0000FF;
-    font-size: 20px;
-    font-weight: bold;
-    right: -12px;
-    top: -2px;
-    transform: rotate(-90deg);
-}
-.main-menu li li.menu-children:after {
-    position: absolute;
-    content: "\2039";
-    color:#0000FF;
-    font-size: 20px;
-    font-weight: bold;
-    right: 10px;
-    top: 12px;
-    transform: rotate(180deg);
-}
-.main-menu li.menu-children:hover > ul {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-.main-menu ul {
-    padding: 10px 0;
-    margin: 0;
-    list-style: none;
-    background-color: #0000FF;
-    position: absolute;
-    z-index: 20;
-    min-width: 220px;
-    top: 100%;
-    left: -30px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(5px);
-    transition: all 200ms cubic-bezier(0.43, 0.59, 0.16, 1.25);
-}
-.main-menu ul li {
-    display: block;
-    padding: 0 10px;
-    line-height: 1.1;
-}
-.main-menu ul li:last-child {
-    margin-bottom: 0;
-}
-.main-menu ul li a {
-    display: block;
-    color: #fff;
-    padding: 10px;
-    transition: all .3s;
-    text-decoration: none;   
-}
-.main-menu ul li a:hover {
-    color: #0000FF;
-    background: #FFF;
-    text-decoration: none;   
-}
-.main-menu ul ul {
-    top: 0;
-    left: 100%;
-}
-</style>
 </head>
 
 <body>
 
 
 <div class="rectangle"><ul class="main-menu">
-    <li><a href="index.html">Рецепты</a></li>
+    <li class="active"><a href="Kulinarik.html"><span>&#128150;</span>Рецепты<span>&#128150;</span></a></li>
     <li class="menu-children">
         <a href="#url">Питание</a>
         <ul>
-            <li><a href="FoodP.html">Правильное</a></li>
-            <li><a href="#url">Неправильное</a></li>
+            <li><a href="/Praktika/Laba/FoodP.html">Правильное</a></li>
+            <li><a href="FoodN.html">Неправильное</a></li>
             <li class="menu-children">
                 <a href="#url">Напитки</a>
                 <ul>
-                    <li><a href="#url">Холодные</a></li>
-                    <li><a href="#url">Горячие</a></li>           
+                    <li><a href="DrinkC.html">Холодные</a></li>
+                    <li><a href="DrinkH.html">Горячие</a></li>           
                 </ul>
             </li>           
         </ul>
     </li>
-    <li><a href="News.html">Новости</a></li>
-    <li><a href="#url">Фотогалерея</a></li>
-    <li class="active"><a href="Me.html">Обо мне</a></li>       
+    <!--<li><a href="/Praktika/Laba/News.html">Новости</a></li>
+    <li><a href="#url">Фотогалерея</a></li>-->
+    <li class="active"><a href="/Praktika/Laba/Me.html">Обо мне</a></li>       
 </ul></div>
 
 
@@ -196,7 +44,7 @@ Z{font-family: "Lato Italic";}
 Немного обо мне - Я студент из группы КИС-201 Казанчян Артём, это задание мне нужно для практики, но в будущем, Я буду его развивать и использовать, как свою электронно-рецептную книгу.</br> 
 Надеюсь, труды моей работы Вам понравятся.
 <Z/></font></div>
-<div style="position:absolute;left:45%; top:60% "><img src="img/Log.png" width="250" height="200"></div>
+<div style="position:absolute;left:45%; top:60% "><img src="/Praktika/Laba/img/Log.PNG" width="250" height="200"></div>
 
 </body>
 </html>

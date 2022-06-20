@@ -1,42 +1,27 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
+V{font-family: "Appetite";
+}
 
-<title>Kylinarik</title>
-<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" href="fonts/lato_italic.css">
-	   
-<style>
+Z{font-family: "Lato Italic";}
 
-p{ position:absolute;
-   left:600px; 
-   top:180px;
-   /*text-align: right;/**/
-  }
-  
-set{text-align: center;
-    height: 400px;
-    vertical-align: middle;
-	top:10%;}  
-  
-  p1{ position:absolute;
-     left:600px; 
-     top:25px;
-    }
+F{text-shadow: #FFFFFF 2px 2px 0, #FFFFFF -2px -2px 0, 
+                 #FFFFFF -2px 2px 0, #FFFFFF 2px -2px 0 ;
+}
+
+
+/*html { overflow:  hidden; }*/
 
 
   
-   .rectangle{
+  
+
+  
+    .rectangle{
     height: 50px;
     width: 600px;    
     background: #FFFFFF;
     border-radius:  7px  ;
     margin-left: auto;
     margin-right: auto;
-    
-    
     }
 
 
@@ -162,37 +147,3 @@ set{text-align: center;
     top: 0;
     left: 100%;
 }
-</style>
-</head>
-
-<body>
-
-
-<div class="rectangle"><ul class="main-menu">
-    <li><a href="index.html">Рецепты</a></li>
-    <li class="menu-children">
-        <a href="#url">Питание</a>
-        <ul>
-            <li><a href="FoodP.html">Правильное</a></li>
-            <li><a href="#url">Неправильное</a></li>
-            <li class="menu-children">
-                <a href="#url">Напитки</a>
-                <ul>
-                    <li><a href="#url">Холодные</a></li>
-                    <li><a href="#url">Горячие</a></li>           
-                </ul>
-            </li>           
-        </ul>
-    </li>
-    <li class="active"><a href="News.html">Новости</a></li>
-    <li><a href="#url">Фотогалерея</a></li>
-    <li><a href="Me.html">Обо мне</a></li>       
-</ul></div>
-
-
-
-
-<set><div><img src="mosi/notwork.png" width="650" height="600"></div></set>
-
-</body>
-</html>
